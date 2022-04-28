@@ -1,0 +1,373 @@
+html{
+    scroll-behavior: smooth;
+}
+
+a h3, a p, a button{
+    text-decoration: none;
+}
+
+.d-flex a img{
+    width: 45%;
+}
+
+.nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0%;
+}
+
+nav p{
+    font-family: 'Great Vibes';
+    font-weight: 600;
+    text-align: center;
+    line-height: 60%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    font-size: 200%;
+    color: rgb(81,66,55);
+}
+
+span{
+    font-family: 'Neuton', serif;
+    font-weight: 200;
+    text-align: center;
+    font-size: 110%;
+}
+
+.icon-links a img{
+    transition: 200ms ease;
+}
+
+.icon-links a .cart{
+    width: 15%;
+}
+
+.icon-links a img:hover{
+    transform: scale(1.4);
+}
+
+.land_page{
+    height: 680px;
+    background-image: url(../img/bg-dg.jpg);
+    background-size: cover;
+}
+
+.writeup{
+    font-family: 'Neuton', serif;
+    margin-left: 59.8%;
+    padding-top: 8%;
+    margin-bottom: 15%;
+}
+
+.writeup > h2{
+    font-size: 303.4%;
+    color: #F4F1EE;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 18%;
+    margin-top: -3%;
+    font-family: 'Neuton', serif;
+}
+
+.links h3{
+    margin-bottom: -6px;
+    margin-top: 1rem;
+    color: #F4F1EE;
+}
+
+.links small{
+    margin-bottom: 0px;
+    color: #F4F1EE;
+}
+
+.icon-links a img{
+    width: 13%;
+}
+
+.pup-link, .adu-link{
+    width: 20%;
+    background-color: rgb(81,66,55,0.85);
+    padding: 2%;
+    transition: 300ms ease;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.pup-link img, .adu-link img{
+    width: 30%;
+}
+
+.pup-link:hover, .adu-link:hover{
+    transform: scale(1.15);
+}
+
+.puppy_section, .adult_section{
+    background: #fff;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.puppy_section{
+    background-color:rgb(102,56,22,0.07);
+    background: linear-gradient(rgb(102,56,22,0.07) 98%, #fff);
+}
+
+.adult_section{
+    background: linear-gradient(#fff 98%, rgb(102,56,22,0.07));
+}
+
+.puppy_section h2, .adult_section h2{
+    font-size: 300%;
+    margin-bottom: 1.8rem;
+    padding-top: 1.8rem;
+    color: rgb(81,66,55);
+}
+
+.puppy_section h3, .adult_section h3{
+    margin-bottom: 1.8rem;
+    margin-top: 1.8rem;
+    color: rgba(85, 85, 85);
+}
+
+.puppy_section p, .adult_section p{
+    margin-bottom: 3.5rem;
+    font-size: large;
+    color: rgba(95, 95, 95);
+}
+
+.food-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+
+.card{
+    width: 32%;
+    padding: 2%;
+    margin-bottom: 2%;
+    box-shadow: 1px 1px 9px rgba(97, 97, 97, 0.85);
+    text-decoration: none;
+    font-family: 'Neuton', serif;
+    transition: 200ms ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card h3,.card p,.card button{
+    text-decoration: none;
+}
+
+.card img{
+    margin-bottom: 10%;
+}
+
+.card h3{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: -9.5%;
+}
+
+.card p{
+    margin-bottom: 8%;
+}
+
+.card .price{
+    color: rgb(81,66,55);
+    font-size: 150%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.card button:hover{
+   border: 2px solid rgba(90, 90, 90);
+   background: transparent;
+   color: rgba(90, 90, 90);
+   margin: auto auto;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+}
+
+#contacts{
+    background-color: rgb(102,56,22,0.07);
+}
+
+.form{
+    font-family: 'Neuton', serif;
+    flex-basis: 90%;
+    text-align: center;
+    padding: 2%;
+    color: rgb(81,66,55);
+}
+
+.form h2{
+    margin-bottom: 0px;
+    font-size: 250%;
+}
+
+.form form{
+    text-align: left;
+}
+
+.form p{
+    font-size: larger;
+}
+
+.form input, .form textarea, .form button{
+    width: 100%;
+    border: none;
+    margin-top: -10px;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    padding: 1%;
+}
+
+.form input{
+    margin-top: -10px;
+}
+
+.form input:focus{
+    border: 2px solid salmon;
+}
+
+::placeholder{
+    opacity: .35;
+    padding: 0%;
+}
+
+.form button img{
+    margin-bottom: .4%; 
+    width:1.8%;
+}
+
+.form button{
+    background: rgb(117, 95, 80);
+    color: #fff;
+    padding: 1%;
+    font-size: 130%;
+    margin-top: .1rem;
+}
+
+.sol-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.socials{
+    width: 50px;
+    height: 50px;
+    background: rgb(81,66,55);
+    border-radius: 500px;
+    transition: 200ms ease;
+}
+
+.socials:hover{
+    transform: scale(1.2);
+}
+
+.socials img{
+   margin-top: 25%;
+}
+
+.r{
+    margin-right: 5%;
+}
+
+/* ****MEDIA QUERY FOR SMALL SCREEN**** */
+@media (max-width:500px) {
+    .land_page{
+        background-position: -12rem 0;
+    }
+
+    span{
+        display: none;
+    }
+
+    .writeup{
+        text-align: center;
+        margin: auto auto;
+        font-size: 80%;
+        margin-bottom: 0px;
+        color: red;
+    }
+    .links{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15%;
+        gap: 10%;
+    }
+
+    .pup-link, .adu-link{
+        width: 80%;
+        padding: 2%;
+        margin: auto auto;
+    }
+
+    ul .nav-item{
+        margin-left: -12%;
+    }
+
+    .icon-links a{
+        margin: auto auto;
+    }
+
+    .icon-links a img{
+        width: 5%;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+
+    .icon-links a .cart{
+        width: 6.8%;
+    }
+
+    .icon-links a .search{
+        margin-left: 18%;
+    }
+
+    .links a img{
+        width: 15%;
+    }
+
+    .card{
+        flex-basis: 85%;
+        margin-bottom: 2rem;
+    }
+
+    .form button{
+       margin-top: 2%;
+    }
+}
+
+@media (max-width:800px){
+    .food-cards{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 7%;
+    }
+    .card{
+        flex-basis: 45%;
+        margin-bottom: 2rem;
+    }
+}
+
+/* *****MEDIA QUERY FOR 412 to 662***** */
+
+
+
+/* *****MEDIA QUERY FOR MEDIUM SCREENS***** */

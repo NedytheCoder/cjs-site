@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Neuton", serif;
+}
+
+body{
+    background-color: rgb(102,56,22,0.05) !important;
+}
+
+nav div{
+    margin-top: 2%;
+}
+
+nav p{
+    font-family: 'Great Vibes';
+    font-weight: 600;
+    text-align: center;
+    line-height: 1px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 200%;
+    color: rgb(81,66,55);
+}
+
+.terms{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    
+}
+
+.conditions{
+    text-align: center;
+    font-size: 250%;
+    color: rgb(81,66,55);
+    margin-bottom: 1.6%;
+}
+
+.terms li{
+    font-size: 150%;
+    color: rgb(81,66,55);
+}
+
+.terms p{
+    font-size: 140%;
+    text-align: center;
+    margin-top: 3%;
+}
